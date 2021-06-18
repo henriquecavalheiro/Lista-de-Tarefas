@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+    <!-- Container principal-->
+    <div class="conteudo">
+        <h1>Lista de Tarefas</h1>
+       <div class="topo">
+           <input type="text"
+            id="inputNovaTarefa"
+            placeholder="Digite aqui sua nova tarefa">
+
+           <button id="btnAddTarefa">
+               <!-- Adicionando icone -->
+               <i class="fa fa-plus"></i>
+           </button>    
+       </div>
+       
+       <ul id="listaTarefas">
+          <!-- <li>
+               <span class="textoTarefa">Tarefa 1</span>
+               
+               <div>                    
+                    <button class="btnAcao">
+                        <i class="fa fa-trash"></i>
+                    </button>
+               </div>
+           </li> -->
+       </ul>
+
+    </div>
+
+    <footer>
+        <p class="footer">
+            Desenvolvido por Henrique Cavalheiro
+        </p>
+    </footer>
+
+    <script src="tarefas.js"></script>
+
+
+</body>
+</html>
